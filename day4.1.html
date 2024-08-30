@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ABC{
+            color: red;
+        }
+        .xyz{
+            background-color: aqua;
+        }
+        .ram{
+            text-decoration: line-through;
+        }
+        #abc{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- class -- css
+    id ---javascript -->
+    <h1 class="ABC xyz ram">Keshav</h1>
+    <h1 id="abc">Amar</h1>
+    <img src="" id="images">
+    <div id="mkp">Blank</div>
+</body>
+<script>
+    document.getElementById("abc").innerHTML = "Ram";
+    document.getElementById("abc").style.color = "#000";
+    document.getElementById("abc").style.backgroundColor = "red";
+    document.getElementById("images").src = "img/Tvs-Ronin-225-Bike-Rental-In-Lucknow-rentalwheels-4.webp";
+    document.getElementById("mkp").innerHTML = "Saurabh kumar";
+    document.getElementById("mkp").style.fontSize ="20px";
+</script>
+</html>
